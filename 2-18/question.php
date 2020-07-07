@@ -13,7 +13,7 @@
 <body>
     
     <?php
-        // 各問題の選択肢の配列
+        // 各問題の選択肢の配列一覧
         $question_1 = array(80,22,20,21);
         $question_2 = array("PHP","CSS","Python","HTML");
         $question_3 = array("join","select","insert","update");
