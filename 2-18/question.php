@@ -20,12 +20,11 @@
     ?>
 
     <div id="wrapper">
-        <p class="top">お疲れ様です<?php echo $_POST['my_name'] ?>さん</p>
-        
-
-        <br>
 
         <!-- 名前の表示 -->
+        <p class="top">お疲れ様です<?php echo $_POST['my_name'] ?>さん</p>
+        
+        <br>
         <form action="answer.php" method="post">
 
         <!-- 名前と正解の送信 -->
