@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #666666;
+}
+
+#wrapper{
+    margin-top: 150px;
+    color: #ffffff;
+    font-family: YuMincho;
+    text-align: center;
+}
+
+.border{
+    width: 100%;
+    border-bottom: solid 2px #ffffff;
+}
+
+
+.top{
+    margin-top: 80px;
+    
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.empty{
+    margin-bottom: 20px;
+}
