@@ -40,7 +40,7 @@
                     echo "残念・・・";
                 }
             ?>
-        </span>
+        </p>
 
         <p class="empty">②の答え</p>
         <p class="empty">
@@ -51,7 +51,7 @@
                     echo "残念・・・";
                 }
             ?>
-        </span>
+        </p>
 
 
         <p class="empty">③の答え</p>
@@ -63,7 +63,7 @@
                     echo "残念・・・";
                 }
             ?>
-        </span>
+        </p>
     </div>
 
 </body>
