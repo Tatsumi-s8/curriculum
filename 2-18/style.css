@@ -9,8 +9,8 @@ html{
 
 #wrapper{
     margin-top: 150px;
+    font-family: "YuMincho";
     color: #ffffff;
-    font-family: YuMincho;
     text-align: center;
 }
 
@@ -18,7 +18,6 @@ html{
     width: 100%;
     border-bottom: solid 2px #ffffff;
 }
-
 
 .top{
     margin-top: 80px;
