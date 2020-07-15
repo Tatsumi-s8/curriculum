@@ -1,0 +1,96 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+#wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.clearfix:after{
+    content:();
+    clear:both;
+    display: block;
+}
+
+
+/* ヘッダー部分 */
+.header{
+    height:120px;
+}
+
+.header_left{
+    width :200px;
+    height: 100%;
+    float: left;
+    background-color:#add8e6;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header_right{
+    float:right;
+    width:800px;
+    height: 100%;
+}
+
+.user_name{
+    background-color:#87ceeb;
+    height: 50%;
+    position: relative;
+
+}
+
+.last_login{
+    background-color:#00ffff;
+    height: 50%;
+    position: relative;
+}
+
+.top{
+    position: absolute;
+    top: 50%;
+    right:0%;
+    transform: translateY(-50%) ;
+}
+
+/* translateY。ようその-50%分、y方向へ移動 */
+
+/* メイン部分 */
+.main{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.f_l{
+    float:left;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    background-color: #87ceeb;
+    margin: 0px 1px 0px 0px;
+   
+}
+
+.contents{
+    background-color: #e0ffff;
+    margin: 1px 1px 0px 0px;
+    
+}
+
+
+
+/* フッター部分 */
+.footer{
+    height: 50px;
+    background-color: #00ced1;
+}
