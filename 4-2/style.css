@@ -1,0 +1,142 @@
+/* 全体系 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.clearfix:after{
+    content: ();
+    display: block;
+    clear: both;
+}
+
+#wrapper{
+    padding:100px 0px;
+    margin: 0 auto;
+    width: 360px;
+}  
+
+#wrapper_2{
+    padding:100px 0px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1{
+    font-weight: normal;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.float_left{
+    float:left;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* テキストボックス系 */
+
+.entry_field{
+    display: inline-block;
+    width: 350px;
+    height: 35px;
+    border: solid 1px #cccccc;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+
+.stock{
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    border: solid 1px #cccccc;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 8px;
+}
+
+.first_option{
+        display: none;
+}
+
+/* submit系 */
+
+.l_btn{
+    margin-top: 15px;
+    font-size:14px;
+    display: inline-block;
+    padding: 8px 60px;
+    border-radius: 3px;
+    color:white;
+    border:none;
+}
+
+.main{
+    margin: 20px 0px;
+}
+
+.btn{
+    font-size: 14px;
+    margin-right: 10px;
+    padding: 8px 14px;
+    border-radius: 5px;
+    color:white;
+    border:none;
+}
+
+.signup_link{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    padding: 7px 12px;
+    border-radius: 5px;
+    color:white;
+    border:none;
+    background-color: #2ca9b2;
+}
+
+.blue{
+    background-color: #007fff;
+}
+
+.grey{
+    background-color:#767777;
+}
+
+
+/* 削除ボタン */
+
+.red{
+    font-size: 14px;
+    padding: 8px 14px;
+    border-radius: 5px;
+    color:white;
+    border:none;
+    background-color: red;
+}
+
+/* リスト系 */
+
+table{
+    border-collapse:collapse;
+}
+
+td{
+    text-align: center;
+    padding: 14px 40px;
+    border: solid 1px #cccccc;
+    font-size:13px;
+}
+
+.light_grey{
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
