@@ -1,6 +1,7 @@
 <?php
-
+// 読み込み
 require_once("getData.php");
+// クラスの定義
 $getData = new getData();
 ?>
 
