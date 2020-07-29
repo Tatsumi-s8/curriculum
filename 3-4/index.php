@@ -5,7 +5,6 @@ require_once("getData.php");
 $getData = new getData();
 ?>
 
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
