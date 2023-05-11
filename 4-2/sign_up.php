@@ -10,12 +10,12 @@ $pdo = db_connect();
 if(isset($_POST["sign_up"])){
 
     if(!empty($_POST['name']) && !empty($_POST['pass'])){
-          
+    
         try{
             $sql = "insert into users(name, password) values(:name, :password)";
             $stmt = $pdo->prepare($sql);
-            $stmt->bindValue(":name", $_POST['name']);
-            $stmt->bindValue(":password", $password_hash);
+            $stmt->bindParam(":name", $_POST['name']);
+            $stmt->bindParam(":password", $password_hash);
             $stmt->execute();
 
             header("Location: login.php");

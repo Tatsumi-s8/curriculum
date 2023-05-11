@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>question</title>
-  <link rel="stylesheet" href="style.css?v=2">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>question</title>
+    <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
     
